@@ -125,7 +125,7 @@
 <div class="hero">
   <span class="paw-icon">🐾</span>
   <h1>Mack</h1>
-  <p class="tagline">Care sheet · June 1–8, 2025</p>
+  <p class="tagline">Care sheet · June 1–6, 2025</p>
 </div>
 
 <!-- TODAY BANNER (JS-populated) -->
@@ -190,11 +190,11 @@
   </div>
 
   <div class="day-tabs" id="day-tabs">
-    <button class="day-tab" data-day="0" onclick="showDay(0)">Mon 6/2</button>
-    <button class="day-tab" data-day="1" onclick="showDay(1)">Tue 6/3</button>
-    <button class="day-tab" data-day="2" onclick="showDay(2)">Wed 6/4</button>
-    <button class="day-tab" data-day="3" onclick="showDay(3)">Thu 6/5</button>
-    <button class="day-tab" data-day="4" onclick="showDay(4)">Fri 6/6</button>
+    <button class="day-tab" data-day="0" onclick="showDay(0)">Mon 6/1</button>
+    <button class="day-tab" data-day="1" onclick="showDay(1)">Tue 6/2</button>
+    <button class="day-tab" data-day="2" onclick="showDay(2)">Wed 6/3</button>
+    <button class="day-tab" data-day="3" onclick="showDay(3)">Thu 6/4</button>
+    <button class="day-tab" data-day="4" onclick="showDay(4)">Fri 6/5</button>
   </div>
 
   <!-- MON 6/2 -->
@@ -390,16 +390,16 @@
   // Date map: which panel index each calendar date maps to
   // 0=Mon6/2, 1=Tue6/3, 2=Wed6/4, 3=Thu6/5, 4=Fri6/6, 5=Mon6/9
   const dateMap = {
-    '2025-06-02': 0,
-    '2025-06-03': 1,
-    '2025-06-04': 2,
-    '2025-06-05': 3,
-    '2025-06-06': 4,
+    '2025-06-01': 0,
+    '2025-06-02': 1,
+    '2025-06-03': 2,
+    '2025-06-04': 3,
+    '2025-06-05': 4,
     '2025-06-09': 5
   };
 
-  const dayLabels = ['Mon 6/2','Tue 6/3','Wed 6/4','Thu 6/5','Fri 6/6'];
-  const dayFull = ['Monday, June 2','Tuesday, June 3','Wednesday, June 4','Thursday, June 5','Friday, June 6'];
+  const dayLabels = ['Mon 6/1','Tue 6/2','Wed 6/3','Thu 6/4','Fri 6/5'];
+  const dayFull = ['Monday, June 1','Tuesday, June 2','Wednesday, June 3','Thursday, June 4','Friday, June 5'];
 
   function pad(n) { return String(n).padStart(2,'0'); }
 
